@@ -1,11 +1,11 @@
 {
-  "name": "natours",
+  "name": "trillio",
   "version": "1.0.0",
-  "description": "Landing page for natours",
+  "description": "Landing page for trillio",
   "main": "index.js",
   "scripts": {
     "watch:sass": "node-sass sass/main.scss css/style.css -w",
-    "devserver": "live-server",
+    "devserver": "npx live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
 
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
